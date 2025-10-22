@@ -73,6 +73,38 @@ main {
   text-align: center;
 }
 
+.button-placeholder .button-link {
+  width: 330;
+  height: 45;
+  margin: auto;
+  background: #333333;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.button-placeholder .button-div {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  width: 330;
+  height: 45;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-placeholder .button-div:hover {
+  color: black;
+}
+
+.button-placeholder .button-link:hover {
+  color: black;
+  background: #c4f82a;
+  cursor: pointer;
+}
+
 .button-placeholder button {
   width: 330;
   height: 45;
@@ -93,6 +125,14 @@ main {
   background: #c4f82a;
   cursor: pointer;
 }
-a:link a:visited a:hover a:active {
+
+a:link,
+a:visited,
+a:active {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
 }
