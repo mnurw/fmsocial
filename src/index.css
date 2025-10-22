@@ -16,12 +16,12 @@ body {
 }
 
 main {
-  border-radius: 10px;
+  border-radius: 12px;
   position: relative;
   background: #1f1f1f;
-  width: 384px;
+  width: 380px;
   margin: 215 auto;
-  padding: 40px 40px;
+  padding: 20px 20px 0px 20px;
   overflow: auto;
   justify-content: center;
 }
@@ -32,6 +32,7 @@ main {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding: 40px 40px 0px 40px;
 }
 
 .profile-placeholder img {
@@ -73,7 +74,7 @@ main {
 }
 
 .button-placeholder button {
-  width: 304;
+  width: 330;
   height: 45;
   margin: auto;
   font-family: "Inter";
@@ -82,7 +83,7 @@ main {
   color: white;
   background: #333333;
   margin-bottom: 16px;
-  border-radius: 5px;
+  border-radius: 8px;
   appearance: none;
   border: none;
 }
