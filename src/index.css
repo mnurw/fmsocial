@@ -80,23 +80,15 @@ main {
   background: #333333;
   margin-bottom: 16px;
   border-radius: 8px;
-}
-
-.button-placeholder .button-div {
-  font-family: "Inter";
-  font-weight: 700;
-  font-size: 14px;
-  color: white;
-  width: 330;
-  height: 45;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-}
+  color: white;
 
-.button-placeholder .button-div:hover {
-  color: black;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 14px;
 }
 
 .button-placeholder .button-link:hover {
@@ -128,11 +120,8 @@ main {
 
 a:link,
 a:visited,
-a:active {
-  text-decoration: none;
-}
-
+a:active,
 a:hover {
   text-decoration: none;
-  color: black;
+  color: inherit;
 }

@@ -16,7 +16,7 @@ function App() {
         <div className="button-placeholder">
           <div className="button-link">
             <a href="https://github.com/mnurw" target="_blank">
-              <div className="button-div">Github</div>
+              Github
             </a>
           </div>
           <div className="button-link">
@@ -24,7 +24,7 @@ function App() {
               href="https://www.frontendmentor.io/profile/mnurw"
               target="_blank"
             >
-              <div className="button-div">Frontend Mentor</div>
+              Frontend Mentor
             </a>
           </div>
           <div className="button-link">
@@ -32,15 +32,11 @@ function App() {
               href="https://www.linkedin.com/in/mnurwicaksono/"
               target="_blank"
             >
-              <div className="button-div">Linkedin</div>
+              Linkedin
             </a>
           </div>
-          <div className="button-link">
-            <div className="button-div">Twitter</div>
-          </div>
-          <div className="button-link">
-            <div className="button-div">Instagram</div>
-          </div>
+          <div className="button-link">Twitter</div>
+          <div className="button-link">Instagram</div>
         </div>
       </main>
     </>
