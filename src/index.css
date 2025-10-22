@@ -1,0 +1,97 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  font-family: Inter;
+}
+
+body {
+  background-color: #141414;
+}
+
+main {
+  border-radius: 10px;
+  position: relative;
+  background: #1f1f1f;
+  width: 384px;
+  margin: 215 auto;
+  padding: 40px 40px;
+  overflow: auto;
+  justify-content: center;
+}
+
+.profile-placeholder {
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-placeholder img {
+  width: 88px;
+  height: 88px;
+  margin: auto;
+}
+
+.profile-name {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  padding: 24px 0px 5px 0px;
+}
+
+.profile-location {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  color: #c4f82a;
+  padding: 5px;
+}
+
+.profile-desc {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  padding: 24px 0px 24px 0px;
+}
+
+.button-placeholder {
+  font-family: "Inter";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-placeholder button {
+  width: 304;
+  height: 45;
+  margin: auto;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 14px;
+  color: white;
+  background: #333333;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  appearance: none;
+  border: none;
+}
+
+.button-placeholder button:hover {
+  color: black;
+  background: #c4f82a;
+  cursor: pointer;
+}
+a:link a:visited a:hover a:active {
+  text-decoration: none;
+}
